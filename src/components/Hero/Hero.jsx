@@ -8,7 +8,7 @@ const Hero = () => {
                 <h2>anywhere on earth</h2>
                 <p>
                     NovaLink Delivers blazing-fast, low-latency setellite
-                    internet to even the most remote corners of the pkanet
+                    internet to even the most remote corners of the planet
                 </p>
                 <div>
                     <button className="btn btn-primary">
