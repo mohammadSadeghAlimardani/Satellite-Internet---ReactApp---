@@ -1,0 +1,10 @@
+.FAQ {
+    background-color: #04101e;
+}
+.FAQ .FAQ-center {
+    padding: 4rem 0;
+}
+.FAQ h2.FAQ-title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}

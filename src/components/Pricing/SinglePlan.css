@@ -1,0 +1,39 @@
+.single-plan {
+    padding: 1.5rem;
+    border: 2px solid #1c2430;
+    border-radius: 0.5rem;
+    background: linear-gradient(#07101d, #03090e);
+    transition: all 0.3s;
+}
+.single-plan:hover {
+    border: 2px solid #233588;
+}
+.single-plan:hover h3,
+.single-plan:hover h2 {
+    color: #233588;
+}
+.single-plan h3,
+h2 {
+    transition: all 0.3s;
+    text-transform: capitalize;
+    color: white;
+}
+.single-plan h4 {
+    text-transform: capitalize;
+    color: #617184;
+    margin-bottom: 0.75rem;
+}
+.single-plan button {
+    width: 100%;
+}
+.single-plan .horizontal-border {
+    margin: 1.5rem 0;
+    width: 100%;
+    height: 2px;
+    background-color: #212834;
+}
+.single-plan ul li {
+    padding: 0.5rem 0;
+    text-transform: capitalize;
+    color: #617184;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Avenir-Meduim";
+    src: url("./fonts/Avenir-Medium.ttf") format("truetype");
+}
+html {
+    scroll-behavior: smooth;
+}
+main {
+    font-family: "Avenir-Meduim";
+}
+#workflow,
+#pricing,
+#FAQ {
+    scroll-margin-top: 4.5rem;
+}
+.btn.btn-primary {
+    background-color: #2c52f0 !important;
+}
+.btn.btn-primary:hover {
+    background-color: #2a028f !important;
+}
+.btn.btn-secondary {
+    background-color: #172a43 !important;
+}
+.btn.btn-secondary:hover {
+    background-color: #102b65 !important;
+}

@@ -1,0 +1,46 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: url("../../images/hero.jpg") -50% 20% / cover;
+}
+@media screen and (max-width: 768px) {
+    .hero {
+        background: linear-gradient(45deg, #041226, #193289);
+    }
+}
+.hero .hero-center {
+    text-align: center;
+    width: 92.5%;
+}
+
+.hero h2 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 3rem;
+}
+@media screen and (max-width: 567px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+}
+.hero p {
+    line-height: 1.8 !important;
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero div {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.hero div button {
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    line-height: 1.8;
+    height: 4.8rem;
+}

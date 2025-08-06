@@ -1,0 +1,12 @@
+.workflow {
+    text-align: center;
+    background-color: #04101e;
+}
+.workflow .workflow-center {
+    padding: 4rem 0;
+}
+.workflow h2.workflow-title {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}

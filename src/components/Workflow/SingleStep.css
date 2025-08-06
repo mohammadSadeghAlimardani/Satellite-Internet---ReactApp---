@@ -1,0 +1,40 @@
+.single-step {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.single-step .step-info {
+    width: 47.5%;
+    color: white;
+}
+.single-step .step-info h3 {
+    text-transform: capitalize;
+    color: white;
+}
+.single-step .step-info p {
+    color: #6b778b;
+}
+
+.single-step .step-point {
+    width: 3rem;
+}
+.single-step .step-point svg {
+    font-size: 1.5rem;
+    color: #2c52f0;
+}
+
+.single-step .step-icon {
+    width: 47.5%;
+}
+.single-step .step-icon svg {
+    background: linear-gradient(#0a1624, #04101e);
+    padding: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    color: #2c52f0;
+    border: 2px solid #192c43;
+    border-radius: 0.5rem;
+}

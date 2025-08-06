@@ -1,0 +1,17 @@
+.pricing {
+    background-color: #02080d;
+}
+.pricing .pricing-center {
+    padding: 4rem 0;
+}
+.pricing h2.pricing-title {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.pricing p.pricing-description {
+    text-align: center;
+    color: #617184;
+    margin-bottom: 4rem;
+}

@@ -1,0 +1,11 @@
+.footer {
+    background-color: #02080d;
+}
+.footer-center {
+    padding: 2rem 0;
+}
+.footer p {
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
